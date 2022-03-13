@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --pink: #fd37a3; 
+  --pink-dark: #c1287b;
+  --hover-pink: #fd37a359;
+  --teal: #10fafb;
+  --teal-dark: #0dbbbc;
+  --teal-dark-2: #05686878;
+  --dark: #101010;
+  --dark-o: #101010ba;
+  --primary-1: #fd37a3;
+  
+  /* Misc */
+  --pattern: url(https://cdn.discordapp.com/attachments/952222954484293662/952595211169693776/Nytt_projekt1.png) repeat;
+  --logo: url(https://cdn.discordapp.com/attachments/932089945710018630/938172070972518400/Kirka_logo.png);
+}
