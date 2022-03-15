@@ -91,9 +91,10 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
   --hover-color: none !important;
   --top: none !important;
   --bottom: none !important;
+  border-style: solid; !important;
+  border-color: red; !important;
   border-radius: 0px !important;
   border-bottom-style: solid;
-  border-color: var(--teal);
   background-image: linear-gradient(to bottom, transparent, #4fdde22b) !important;
   background-color: rgba(41, 41, 41, 0.34) !important;
 }
