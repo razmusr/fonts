@@ -154,6 +154,7 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
   border: none !important;
 }
 #play > div > div.play-content-up > div > div > div.select-mods-maps{
+  background: #FE0101 !important;
   width: auto !important;
 }
 #view > div > div > div.content > div > div.clans > div.my-clan > div.vm--container > div.vm--modal > div > div{
@@ -229,6 +230,19 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
 .avatar{
     border: 4px solid var(--pink) !important;
     background-color: var(--pink) !important;
+}	
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
 }
 /* Text */
 .levels,
