@@ -37,7 +37,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .interface .background {
-	background: url(https://github.com/razmusr/fonts/blob/b39e1477b61f4ce892c1e5e4dabc9a219daecd71/rammstein-wallpaper-preview.jpg) repeat !important;
+	background: url(https://cdn.discordapp.com/attachments/399670572105334786/953401120389210202/rammstein-wallpaper-preview.jpg) repeat !important;
 	animation: animate 10s linear infinite !important;
 }
 
@@ -93,7 +93,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 #icon-store {
-	background: url(https://github.com/razmusr/fonts/blob/64ccf9e874cafd3ca24044f7eacdbdfcbf123f15/ramm.PNG) repeat !important;
+	background: transparent !important;
 	border-top: transparent !important;
 	border-bottom: transparent !important;
 	box-shadow: none !important;
@@ -355,7 +355,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* End Game Screen */
 .end-modal {
-	background: url(https://github.com/razmusr/fonts/blob/e778aabe5b09d861cb040973aa4642ba21c55c9c/rammstein-wallpaper-previdew.jpg) !important;
+	background: url(https://cdn.discordapp.com/attachments/399670572105334786/953401120166908034/rammstein-wallpaper-previdew.jpg) !important;
 }
 
 .end-modal .content {
