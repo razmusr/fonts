@@ -325,14 +325,14 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
   border-bottom: .25rem solid var(--pink) !important;
   border-radius: 0px !important;
 }.pattern-bg {
-	background: url(https://imgur.com/jt4r81V) center top/cover no-repeat !important;
+	background: url(https://media.discordapp.net/attachments/399670572105334786/953401120166908034/rammstein-wallpaper-previdew.jpg) center top/cover no-repeat !important;
 		animation: animate 10s linear infinite !important;
 }.play:before {
 	content: "CSS by Knarkbumman | Last Updated 03/15-2022";
 	margin-right: 30px;
 }/* End Game Screen */
 .end-modal {
-	background: url(https://imgur.com/KEMClKB) !important;
+	background: url(https://media.discordapp.net/attachments/399670572105334786/953401120389210202/rammstein-wallpaper-preview.jpg) !important;
 }.interface .background{
  	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
 }/* HUD */
