@@ -8,7 +8,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 /* Font */
 @font-face {
 	font-family: gamefont;
-	src: url(https://github.com/razmusr/fonts/blob/9ac339a0656640c17f67cd64d71c851a0099b9f5/HARMONY%20Personal%20use.otf);
+	src: url(https://github.com/razmusr/fonts/blob/f286ec274563566d8b8ae4ed7d7a2784d8a032de/Rockout.otf);
 }
 
 * {
@@ -37,7 +37,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .interface .background {
-	background: url(https://cdn.discordapp.com/attachments/287339066918305793/952600647818162236/Nytt_projekt3.png) repeat !important;
+	background: url(https://github.com/razmusr/fonts/blob/b39e1477b61f4ce892c1e5e4dabc9a219daecd71/rammstein-wallpaper-preview.jpg) repeat !important;
 	animation: animate 10s linear infinite !important;
 }
 
@@ -93,7 +93,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 #icon-store {
-	background: transparent !important;
+	background: url(https://github.com/razmusr/fonts/blob/64ccf9e874cafd3ca24044f7eacdbdfcbf123f15/ramm.PNG) repeat !important;
 	border-top: transparent !important;
 	border-bottom: transparent !important;
 	box-shadow: none !important;
@@ -171,7 +171,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Feb 28 2022";
+	content: "css by KnarkBumman | Last Updated Mars 15 2022";
 	margin-right: 30px;
 }
 
@@ -355,7 +355,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* End Game Screen */
 .end-modal {
-	background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
+	background: url(https://github.com/razmusr/fonts/blob/e778aabe5b09d861cb040973aa4642ba21c55c9c/rammstein-wallpaper-previdew.jpg) !important;
 }
 
 .end-modal .content {
