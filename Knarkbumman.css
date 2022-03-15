@@ -12,15 +12,15 @@
   }
 :root {
   /* Colors */
-  --pink: #369ef7; 
-  --pink-dark: #e5f010;
-  --hover-pink: #edfd3759;
-  --teal: #edf90f;
-  --teal-dark: #0dbbbc;
-  --teal-dark-2: #05686878;
-  --dark: #101010;
-  --dark-o: #101010ba;
-  --primary-1: #e5f010;
+  --pink: #f73636; 
+  --pink-dark: #f73636;
+  --hover-pink: #f73636;
+  --teal: #f73636;
+  --teal-dark: #f73636;
+  --teal-dark-2: #f73636;
+  --dark: #f73636;
+  --dark-o: #f73636;
+  --primary-1: #f73636;
   
   /* Misc */
   --pattern: url(https://cdn.discordapp.com/attachments/952222954484293662/952595211169693776/Nytt_projekt1.png) repeat;
