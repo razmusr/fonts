@@ -309,7 +309,7 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
 /* Credit */
 #app > div.interface.text-2 > div.background > div.bg-radial::after {	
   font-size: 1rem;
-  content: "CSS by Otakoo ";
+  content: "CSS by KnarkBumman ";
   padding: 0.6rem !important;
   color: #ffffff;
   position: fixed;
@@ -325,14 +325,14 @@ button.button.join:after, #view > div > div > div.content > div > div > div.prev
   border-bottom: .25rem solid var(--pink) !important;
   border-radius: 0px !important;
 }.pattern-bg {
-	background: url(https://i.imgur.com/gr4wcGx.jpg) center top/cover no-repeat !important;
+	background: url(https://imgur.com/jt4r81V) center top/cover no-repeat !important;
 		animation: animate 10s linear infinite !important;
 }.play:before {
-	content: "CSS by Otakoo | Last Updated Today";
+	content: "CSS by Knarkbumman | Last Updated 03/15-2022";
 	margin-right: 30px;
 }/* End Game Screen */
 .end-modal {
-	background: url(https://i.imgur.com/2rLzfJa.png) !important;
+	background: url(https://imgur.com/KEMClKB) !important;
 }.interface .background{
  	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
 }/* HUD */
