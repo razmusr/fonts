@@ -1,6 +1,6 @@
 .nickname {
     text-decoration:;
-    color: #fff;
+    color: #f73636;
 }
 
 .clan-tag {
@@ -9,8 +9,8 @@
 
 .clan-tag:before {
     visibility: visible;
-    color: white;
-    content: 'TRIBE';
+    color: red;
+    content: 'CROSS';
     font-size: 13px;
     font-weight: 200;
     position: fixed;
@@ -47,7 +47,7 @@
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 1px #000, 0 0 2px var(--primary-1),
+    text-shadow: 0 0 1px #f73636, 0 0 2px var(--primary-1),
       0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
       0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
       0 0 7px var(--primary-1);
@@ -60,7 +60,7 @@
   }
 }
 #app > div.interface.text-2 > img {
-  animation-name: floating;
+  animation-name: bounce;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
