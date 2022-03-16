@@ -1,0 +1,981 @@
+.nickname {
+    text-decoration:;
+    color: #fff;
+}
+
+.clan-tag {
+    visibility: hidden;
+}
+
+.clan-tag:before {
+    visibility: visible;
+    color: white;
+    content: 'TRIBE';
+    font-size: 13px;
+    font-weight: 200;
+    position: fixed;
+    top: -1px;
+}
+/* Font */
+@font-face {
+    font-family: customFont;
+    src: url(https://cdn.discordapp.com/attachments/399670572105334786/953454423294771230/Rockout.ttf)
+}
+
+* {
+    font-family: customFont !important;
+}
+/* Animations */
+.clan-tag {
+  animation: glow 0.3s ease-in-out infinite alternate;
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #000, 0 0 2px var(--primary-1),
+      0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
+      0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
+      0 0 7px var(--primary-1);
+  }
+  to {
+    text-shadow: 0 0 2px var(--primary-1), 0 0 3px var(--secondary-7),
+      0 0 4px var(--secondary-7), 0 0 5px var(--secondary-7),
+      0 0 6px var(--secondary-7), 0 0 7px var(--secondary-7),
+      0 0 8px var(--secondary-7);
+  }
+}
+#app > div.interface.text-2 > img {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+/*  MODE SELECT */
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: #f73636;
+    border-style: solid;
+    border-color: red;
+}
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: #0000;
+}
+#play > div > div.play-content-up > div > div {
+  position: absolute;
+  left: calc(50% - 61rem) !important;
+  top: calc(50% - 40.75rem) !important;
+  width: 30rem !important;
+  height: 46.75rem !important;
+  border: 2px solid var(--accentColor) !important;
+  overflow: visible;
+}
+#app > div.interface.text-2 > div.play > div > div.play-content-up > div > div > div.select-mods-maps {
+  display: grid;
+  grid-template: auto / 50% 50%;
+  text-align: left;
+  padding: 0 1rem;
+  width: 100%;
+  height: 75%;
+}
+hr {
+  left: 1rem;
+  position: relative;
+  border: 2px solid var(--accentColor) !important;
+  border-radius: 0;
+  background-color: var(--baseColor) !important;
+  overflow: visible;
+  height: 2rem;
+  margin: 1rem 6rem 2rem 6rem;
+  z-index: 1;
+}
+hr::before {
+  z-index: 1;
+  content: "CSS by Knarkbumman";
+  color: var(--accentColor);
+  position: absolute;
+  top: 2px;
+  left: 0%;
+  width: 100%;
+}
+hr::after {
+  content: "";
+  position: absolute;
+  background-color: var(--baseColor);
+  left: 10px;
+  top: -2px;
+  width: calc(100% - 20px);
+  height: calc(100% + 4px);
+  z-index: 0;
+}
+#play > div > div.play-content-up > div > div > div.select-mods-mods {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+}
+#play > div > div.play-content-up > div > div > div {
+  z-index: 1;
+}
+/****************************************************/
+/* Background */
+ #app > div.interface.text-2 > div.background{
+     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953414932551065620/Nytt_projekt7.png) no-repeat center center fixed !important;
+     background-size: cover !important;
+}
+ #app > div.interface.text-2 > div.background > div.pattern-bg, #app > div.interface.text-2 > div.background > div.bg-radial{
+     display: none !important 
+}
+/* Ad Removal */
+ #ad-bottom, #ad-left{
+     visibility: hidden\\;
+}
+/* Stream */
+ .live-streams {
+     opacity: 0;
+     transition-duration: 0.5s;
+}
+ .live-streams:hover {
+     opacity: 1;
+}
+/* Lobby */
+ .promo-link-btn {
+     display: none !important;
+}
+ .interface .logo {
+     display: none;
+}
+ .soc-group[data-v-3c44abf2] {
+     display: none;
+}
+/* freinds/inventory icons */
+
+#right-icons [data-v-ae524044] {
+	height: .6rem;
+}
+#right-icons>div.icon-btn.text-1 {
+	width: 139px;
+	font-size: 18px;
+	height: 65px;
+}
+#right-icons [data-v-1cbd79ff] {
+	width: 139px;
+	font-size: 18px;
+	height: 65px;
+}
+#right-icons [data-v-b8de1e14] {
+	display: none;
+}
+.gun-img[data-v-647c9f92] {
+	display: none;
+}
+/*  BG GONE */
+.add-friends,
+.moneys > div,
+#auth-user > div,
+#left-icons > div > div,
+#left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.clans,
+#view > div > div > div.content > div > div.avatar,
+#app > div.loading-scene > div.background-cont > div.background,
+#view > div > div > div.content > div > div.avatar > div.bottom,
+#view > div > div > div.content > div > div > div.preview.text-2,
+#view > div > div > div.content > div > div.content > div.subjects,
+#app > div.game-interface > div.esc-interface > div.right-container,
+#view > div > div > div.content > div > div > div.preview.text-2 > div,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.head-text,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.hp > div,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.cont-endurance,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.left > div,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.kill-death > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.level,
+#app > div.end-modal > div.content > div.chat > div.chat.chat-position > div.messages.messages-cont,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.messages.messages-cont,
+#view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small {
+  background: none !important;
+}
+
+/*  REMOVE BORDERS  */
+.tab,
+.card-cont,
+.container-card,
+#auth-user > div,
+#left-icons > div > div,
+#left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.content > div.subjects,
+#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
+  border: none !important;
+}
+
+/*  TRANSPARENT BLUR    */
+#view > div,
+.container-card,
+#view > div > div,
+#app > div.game-interface > div.esc-interface {
+  background: transparent !important;
+  backdrop-filter: blur(0.5rem);
+}
+
+/*  TINTED BLUR */
+#app > div.loading-scene > div.content.team > div > div.player,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info,
+#app > div.loading-scene > div.content > div.players.text-1.players-1 > div,
+#app > div.loading-scene > div.content > div.players.text-1.players-2 > div {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.5rem);
+}
+
+/*  BG: BASE - COLOR: ACCENT   */
+.level,
+.levels,
+.lvl-leader,
+.level > div {
+  background: var(--baseColor) !important;
+  color: var(--accentColor) !important;
+}
+
+/*  BG: BASE        */
+.top-bar,
+.card-cont,
+.tab:hover,
+.tab.active,
+.tab.active-tab,
+.champions-list,
+.card-cont.user-info,
+#play > div > div.play-content-up > div > div,
+#app > div.game-interface > div.death-cont > div,
+#right-interface > div.settings-and-socicons > div,
+#view > div > div > div.content > div > div.content > div.tab-bar,
+#view > div > div > div.content > div > div.avatar > div.bottom > div,
+#view > div > div > div.content > div > div.content > div.subjects > div,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1,
+#view > div > div > div.content > div > div > div.list-cont > div.list > div,
+#view > div > div > div.content > div > div.leaderboard-cont > div.info-awards,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.head.text-2,
+#app > div.end-modal > div.content > div.right-cont-content > div.list-cont.list-players,
+#view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.top-items,
+#app > div.end-modal > div.content > div.right-cont-content > div.list-cont.list-players > div.top-items,
+#view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.bottom-items,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.progress-line.progress-line.secondary {
+  background: var(--baseColor) !important;
+}
+
+/*  BG: ACCENT  */
+.progress,
+::-webkit-scrollbar-thumb,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.cont-endurance > div {
+  background: var(--accentColor) !important;
+}
+
+/*  COLOR: ACCENT   */
+.win,
+.clan-tag,
+.label-killed,
+.nickname.primary,
+#view > div > div > div.content > div > div > div.preview.text-2 > div > div.head > div.map-name,
+#app > div.loading-scene > div.content.team > div > div > div.player-left > div.name.text-2 > div.label,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d > div.stat-name.text-2,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div > div > div.stat-name.text-2,
+#app > div.loading-scene > div.content > div.players.text-1.players-1 > div > div.player-left > div.name.text-2 > div.label,
+#app > div.loading-scene > div.content > div.players.text-1.players-2 > div > div.player-left > div.name.text-2 > div.label,
+#view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small > div > span.lvl,
+#app > div.game-interface > div.esc-interface > div.left-container > div.player-list > div > div.player-left > div.name > div.label,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div.progress-text-cont > div.progress-level > div.progress-level-value.text-2 {
+  color: var(--accentColor) !important;
+}
+
+/*  SQUARE OFF CORNERS  */
+.card-cont.user-info,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile {
+  border-radius: 0 !important;
+}
+
+/*  LIST ITEM   */
+.item,
+.input,
+.select-mod,
+.select-region,
+#view > div > div > div.content > div > div.general-content.text-2 > div.box,
+#app > div.game-interface > div.desktop-game-interface > div.kill-bar-cont > div,
+#app > div.game-interface > div.esc-interface > div.left-container > div.player-list > div,
+#app > div.game-interface > div.esc-interface > div.right-container > div.change-container > div > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.team-list-players > div > div.list > div,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div > div.item-content,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div > div.player-list.player-left-cont > div.player,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div > div.player-list.player-right-cont > div.player,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div.player-list > div {
+  background: var(--baseColor) !important;
+  border: 0.125rem solid rgba(255, 255, 255, 0.1) !important;
+}
+ /*  HIDE ELEMENTS   */
+.triangle,
+.bg-radial,
+.list-weapons,
+.mini-map-cont,
+.progress-label,
+.triangle-bottom,
+.animation:before,
+#left-icons > div.icon-btn.text-1,
+#app > div.loading-scene > div.loading,
+#auth-user > div > div.card-cont.avatar-info,
+#left-icons > div:nth-child(1) > div > div > svg,
+#left-icons > div:nth-child(1) > div > div > div,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.info,
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span,
+#app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
+  display: none !important;
+}
+/*  REMOVE BORDERS  */
+.tab,
+.card-cont,
+.container-card,
+#auth-user > div,
+#left-icons > div > div,
+#left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.content > div.subjects,
+#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
+  border: none !important;
+}
+/*  SEXY BUTTONS    */
+.play-btn {
+  margin-right: 0 !important;
+}
+.button,
+#right-icons > div.icon-btn.text-1,
+#right-icons > div.card-cont.text-1.inventory-card,
+#right-interface > div.settings-and-socicons > div,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1 {
+  position: relative;
+  border: solid 2px var(--accentColor) !important;
+  border-radius: 0 !important;
+  transform: skew(0deg) !important;
+  background-color: var(--baseColor) !important;
+  --hover-color: var(--baseColor) !important;
+  --top: var(--baseColor) !important;
+  --bottom: var(--baseColor) !important;
+  -webkit-text-stroke: 0px !important;
+  overflow: visible !important;
+}
+.button::after,
+#right-icons > div.icon-btn.text-1:after,
+#right-icons > div.card-cont.text-1.inventory-card:after,
+#right-interface > div.settings-and-socicons > div:after,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1:after {
+  content: "";
+  position: absolute !important;
+  background: var(--baseColor) !important;
+  left: 10px !important;
+  top: -2px !important;
+  width: calc(100% - 20px) !important;
+  height: calc(100% + 4px) !important;
+  transform: scaleX(1) !important;
+  transition: 0.25s ease-in-out !important;
+  border: none !important;
+  border-radius: 0 !important;
+  z-index: -99 !important;
+}
+.button:hover::after,
+#right-icons > div.icon-btn.text-1:hover::after,
+#right-icons > div.card-cont.text-1.inventory-card:hover::after,
+#right-interface > div.settings-and-socicons > div:hover::after,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1:hover::after {
+  transform: scaleX(0) !important;
+}
+.text[data-v-02c36fca] {
+  z-index: 1;
+  -webkit-text-stroke: 0 !important;
+  transform: skew(0deg);
+}
+/****************************************************/
+/*  SEXY LEFT ICONS */
+#left-icons {
+  position: fixed;
+  top: rem;
+  left: 1rem;
+  width: 8.25rem;
+  border: 2px solid var(--accentColor);
+  background: var(--baseColor);
+  overflow: visible;
+  align-items: center;
+}
+#left-icons > div {
+  z-index: 1;
+}
+/****************************************************/
+/*  SEXY CONTAINER - HORIZONTAL */
+#select-regions-cont,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress {
+  position: relative;
+  border: 2px solid var(--accentColor) !important;
+  border-radius: 0;
+  background: var(--baseColor) !important;
+  overflow: visible;
+}
+#select-regions-cont:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile:after {
+  content: "";
+  position: absolute;
+  background-color: var(--baseColor);
+  left: 10px;
+  top: -2px;
+  width: calc(100% - 20px);
+  height: calc(100% + 4px);
+  z-index: 0;
+}
+#select-regions-cont > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile > div {
+  z-index: 1;
+}
+/****************************************************/
+/*  SEXY CONTAINER - VERTICAL   */
+#left-icons:after,
+#play > div > div.play-content-up > div > div:after {
+  content: "";
+  position: absolute;
+  background-color: var(--baseColor);
+  top: 10px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 20px);
+  z-index: 0;
+}
+
+/*  REPLACE ICONS   */
+ #left-icons > div:nth-child(1) > div:nth-child(1) {
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(2) {
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(3) {
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(4) {
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1.25rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(1):hover {
+  background: url(https://cdn.discordapp.com/attachments/856315166126506026/946171884733607976/worldwide_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(2):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938657606124335104/KirkaStore.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(3):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656825409151007/Servers_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(4):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656824998129735/map_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1.25rem !important;
+  background-position-y: 2rem !important;
+}
+ */
+ #icon-store:hover {
+     border-top: transparent;
+}
+ .icon-btn:nth-child(1):hover {
+     border-top: transparent;
+}
+ .icon-btn:nth-child(3):hover {
+     border-top: transparent;
+}
+ .icon-btn:nth-child(4):hover {
+     border-top: transparent;
+}
+ https://cdn.discordapp.com/attachments/856315166126506026/945791902500937768/waxz.css
+ .play:before {
+     content: "css by KnarkBumman | margin-right: 30px;
+}
+ #app > div.interface.text-2 > div.play > button {
+     position: absolute;
+     top: 16px;
+     right: 111px;
+     background: #3b4975 !important;
+     border: 4px solid #26335b !important;
+}
+ #app > div.interface.text-2 > div.play > button:hover {
+     background: #37477c !important;
+     color: white !important;
+}
+ .moneys {
+     position: fixed;
+     left: 8% !important;
+     top: 80% !important;
+}
+ .moneys .money[style="--i:3;
+"] {
+     background: transparent;
+     border-top: transparent;
+     border-bottom: transparent;
+     box-shadow: none;
+}
+ .moneys .money[style="--i:2;
+"] {
+     background: transparent;
+     border-top: transparent;
+     border-bottom: transparent;
+     box-shadow: none;
+}
+/* Containers */
+ .background, .clans, .hub-container {
+     background: transparent !important;
+}
+ .tabs {
+     background: transparent !important;
+     border-bottom: none !important;
+     box-shadow: none !important;
+     border-right: none !important;
+}
+ .active-tab {
+     background: transparent !important;
+     border-right: none !important;
+     border-left: none !important;
+}
+ .tab {
+     background: transparent !important;
+     border-left: none !important;
+     border-right: none !important;
+}
+ .head-text {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+ .add-friends {
+     background: transparent !important;
+}
+ .limit {
+     border-left: none !important;
+}
+ .top-bar, .close, .home, .name-page {
+     display: none !important;
+}
+ .container {
+     background: transparent !important;
+     backdrop-filter: blur(5px);
+     box-shadow: none !important;
+}
+ .champions-list {
+     box-shadow: none !important;
+}
+ .reset-time, .info-awards, .news {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+ .settings .input {
+     background: transparent !important;
+     border: none !important;
+     box-shadow: none !important;
+}
+/* Inventory */
+ .tab-bar {
+     background: transparent !important;
+}
+ .subjects {
+     background: transparent !important;
+     border: none !important;
+}
+ .subject {
+     background: transparent !important;
+}
+ .inventory .avatar-head {
+     display: none;
+}
+ .inventory .avatar {
+     background: transparent !important;
+}
+ .gun {
+     background: transparent !important;
+     border: none !important;
+}
+ .inventory .bottom {
+     background: transparent !important;
+     backdrop-filter: blur(2px) !important;
+     background-image: linear-gradient(to left, rgba(246, 255, 0, 0), #e2e04f1c) !important;
+}
+/* End Game Screen */
+ .end-modal {
+     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953415731108773938/Nytt_projekt8.png) !important;
+}
+ .end-modal .content {
+     border-bottom: none !important;
+}
+/* HUD */
+ .mini-map-cont .name {
+     display: none;
+}
+ .info-key-cont {
+     display: none;
+}
+ .list-weapons {
+     display: none !important;
+}
+ .hp {
+     margin-right: 20%;
+}
+ .hp-title {
+     display: none !important;
+}
+ .state {
+     margin-left: 36%;
+}
+ .cont-endurance {
+     margin-left: 2%;
+}
+ .mWwn {
+     display: none !important;
+}
+ .weapons-cont {
+     margin-right: 46.5%;
+     margin-bottom: 3%;
+}
+ .instruction {
+     display: none !important;
+}
+ .kill-death {
+     position: fixed;
+     right: 1px;
+     bottom: 2%;
+     left: unset !important;
+     top: unset !important;
+}
+/* Change Container */
+ .change-container .gun-type{
+     padding: 10px;
+}
+ .change-container .gun-type:hover {
+     border: .5px solid red;
+     box-shadow: 0 10px 15px rgba(236, 54, 54, .5);
+}
+/* Chat */
+ .chat {
+     margin-bottom: -4%;
+}
+/* Profile */
+ .auth-form {
+     background: transparent !important;
+     border-bottom: transparent !important;
+     border-top: transparent !important;
+     box-shadow: none !important;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+}
+
+.heads .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+ .profile .avatar-info, .profile .level, .exp-values {
+     display: none;
+}
+ .user-info {
+     visibility: hidden;
+}
+ .progress-lvl {
+     visibility: visible;
+     margin-right: -810%;
+     margin-top: -10% !important;
+}
+ .heads .levels {
+     color: red !important;
+}
+ .heads .clan-tag {
+     -webkit-animation: glow 2s ease-in-out infinite alternate;
+     -moz-animation: glow 2s ease-in-out infinite alternate;
+     animation: glow 2s ease-in-out infinite alternate;
+}
+ .card-profile {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+ .profile .k-d {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+ .profile .statistics {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+.interface .nickname:after {
+   content: url(linkhere) !important;
+   margin-top: -3%;
+}
+/* Timer and Score */
+ .timer{
+     position: fixed;
+     right: 903px;
+     background: transparent !important;
+     box-shadow: none !important;
+}
+ .team-score .label {
+     margin: 26.5px;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+/*  HIDE ELEMENTS   */
+.triangle,
+.bg-radial,
+.live-streams,
+.list-weapons,
+.mini-map-cont,
+.progress-label,
+.triangle-bottom,
+.animation:before,
+#left-icons > div.icon-btn.text-1,
+#app > div.loading-scene > div.loading,
+#auth-user > div > div.card-cont.avatar-info,
+#left-icons > div:nth-child(1) > div > div > svg,
+#left-icons > div:nth-child(1) > div > div > div,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.info,
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span,
+#app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
+  display: none !important;
+}
+/*  REMOVE BORDERS  */
+.tab,
+.card-cont,
+.container-card,
+#auth-user > div,
+#left-icons > div > div,
+#left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.content > div.subjects,
+#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
+  border: none !important;
+}
+/****************************************************/
+/*  SEXY LEFT ICONS */
+#left-icons {
+  position: fixed;
+  top: 8rem;
+  left: 1rem;
+  width: 8.25rem;
+  border: 2px solid var(--accentColor);
+  background: var(--baseColor);
+  overflow: visible;
+  align-items: center;
+}
+#left-icons > div {
+  z-index: 1;
+}
+/****************************************************/
+/*  SEXY CONTAINER - HORIZONTAL */
+#select-regions-cont,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress {
+  position: relative;
+  border: 2px solid var(--accentColor) !important;
+  border-radius: 0;
+  background: var(--baseColor) !important;
+  overflow: visible;
+}
+#select-regions-cont:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress:after,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile:after {
+  content: "";
+  position: absolute;
+  background-color: var(--baseColor);
+  left: 10px;
+  top: -2px;
+  width: calc(100% - 20px);
+  height: calc(100% + 4px);
+  z-index: 0;
+}
+#select-regions-cont > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile > div {
+  z-index: 1;
+}
+/****************************************************/
+/*  SEXY CONTAINER - VERTICAL   */
+#left-icons:after,
+#play > div > div.play-content-up > div > div:after {
+  content: "";
+  position: absolute;
+  background-color: var(--baseColor);
+  top: 10px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 20px);
+  z-index: 0;
+}
+
+/*  REPLACE ICONS   */
+}
+ #left-icons > div:nth-child(1) > div:nth-child(1) {
+  background: url(https://cdn.discordapp.com/attachments/856315166126506026/946167909808492634/hub1.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(2) {
+  background: url(https://cdn.discordapp.com/attachments/856315166126506026/946168655362814082/store.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(3) {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656825220403270/Servers.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(4) {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656824805179442/map.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1.25rem !important;
+  background-position-y: 2rem !important;
+}
+
+#left-icons > div:nth-child(1) > div:nth-child(1):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656826138984458/worldwide_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(2):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938657606124335104/KirkaStore.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(3):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656825409151007/Servers_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1rem !important;
+  background-position-y: 2rem !important;
+}
+#left-icons > div:nth-child(1) > div:nth-child(4):hover {
+  background: url(https://cdn.discordapp.com/attachments/929827473351385089/938656824998129735/map_hover.png) !important;
+  height: 8rem !important;
+  margin-top: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 65px !important;
+  background-position-x: 1.25rem !important;
+  background-position-y: 2rem !important;
+}
+  
