@@ -9,9 +9,9 @@
 
 .clan-tag:before {
     visibility: visible;
-    color: blue;
+    color: #ffffff;
     content: 'CROSS';
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 200;
     position: fixed;
     top: -1px;
@@ -50,13 +50,13 @@
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 1px #146d94, 0 0 2px var(--primary-1),
+    text-shadow: 0 0 1px #8bdcff, 0 0 2px var(--primary-1),
       0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
       0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
       0 0 7px var(--primary-1);
   }
   to {
-    text-shadow: 0 0 2px var(--primary-1), 0 0 3px var(--secondary-7),
+    text-shadow: 0 0 2px #8bdcff, 0 0 3px var(--secondary-7),
       0 0 4px var(--secondary-7), 0 0 5px var(--secondary-7),
       0 0 6px var(--secondary-7), 0 0 7px var(--secondary-7),
       0 0 8px var(--secondary-7);
@@ -84,7 +84,7 @@
     border-radius: 50px;
     background-color: #146d94;
     border-style: solid;
-    border-color: red;
+    border-color: blue;
 }
 
 .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
@@ -96,6 +96,8 @@
   top: calc(50% - 40.75rem) !important;
   width: 30rem !important;
   height: 46.75rem !important;
+  border-color: ; !important;
+  border-style: solid; !important;
   border: 2px solid var(--accentColor) !important;
   overflow: visible;
 }
@@ -350,7 +352,6 @@ hr::after {
 .bg-radial,
 .list-weapons,
 .mini-map-cont,
-.progress-label,
 .triangle-bottom,
 .animation:before,
 #left-icons > div.icon-btn.text-1,
@@ -359,7 +360,6 @@ hr::after {
 #left-icons > div:nth-child(1) > div > div > svg,
 #left-icons > div:nth-child(1) > div > div > div,
 #app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.info,
-#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span,
 #app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
   display: none !important;
 }
@@ -755,10 +755,57 @@ hr::after {
 }
 /* Profile */
  .auth-form {
-     background: transparent !important;
+     background: #ffffff08 !important;
      border-bottom: transparent !important;
      border-top: transparent !important;
-     box-shadow: none !important;
+     box-shadow: 0px 0px 20px blue; !important;
+}
+/* Hover */
+.card-cont:hover{
+    background: var(--hover-pink) !important;
+}
+/* Glow */
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-line > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div.progress-line.secondary > div{
+     border-radius: 0px !important;
+     border-style: solid;
+     border-color: red;
+     background-color: red; !important;
+     box-shadow: 0px 0px 30px #763B3B
+}
+/* Animations */
+#app > div.interface.text-2 > img {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
 }
 @-webkit-keyframes glow {
   from {
