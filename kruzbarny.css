@@ -377,7 +377,15 @@ hr::after {
 }
 /*  SEXY BUTTONS    */
 .play-btn {
-  margin-right: 0 !important;
+  --hover-color: none !important;
+  --top: none !important;
+  --bottom: none !important;
+  border-style: solid; !important;
+  border-color: blue; !important;
+  border-radius: 0px !important;
+  border-bottom-style: solid;
+  background-image: linear-gradient(to bottom, transparent, #4fdde22b) !important;
+  background-color: rgba(41, 41, 41, 0.34) !important;
 }
 .button,
 #right-icons > div.icon-btn.text-1,
@@ -490,7 +498,7 @@ hr::after {
 
 /*  REPLACE ICONS   */
  #left-icons > div:nth-child(1) > div:nth-child(1) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -499,7 +507,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(2) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -508,7 +516,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(3) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -517,7 +525,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(4) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
