@@ -21,6 +21,9 @@
     font-family: customFont;
     src: url(https://cdn.discordapp.com/attachments/399670572105334786/953463206070865920/HARMONY_Personal_use.ttf)
 }
+.cmp-persistent-link {
+  display: none !important;
+}
 
 * {
     font-family: customFont !important;
@@ -466,7 +469,7 @@ hr::after {
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d:after,
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress:after,
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile:after {
-  content: "";
+  content: "CROSS";
   position: absolute;
   background-color: var(--baseColor);
   left: 10px;
@@ -498,7 +501,7 @@ hr::after {
 
 /*  REPLACE ICONS   */
  #left-icons > div:nth-child(1) > div:nth-child(1) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -507,7 +510,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(2) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -516,7 +519,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(3) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -525,7 +528,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(4) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953465397544366080/Nytt_projekt11.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
