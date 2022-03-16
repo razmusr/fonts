@@ -1,6 +1,6 @@
 .nickname {
     text-decoration:;
-    color: #f73636;
+    color: #146d94;
 }
 
 .clan-tag {
@@ -9,7 +9,7 @@
 
 .clan-tag:before {
     visibility: visible;
-    color: red;
+    color: blue;
     content: 'CROSS';
     font-size: 13px;
     font-weight: 200;
@@ -19,7 +19,7 @@
 /* Font */
 @font-face {
     font-family: customFont;
-    src: url(https://cdn.discordapp.com/attachments/399670572105334786/953454423294771230/Rockout.ttf)
+    src: url(https://cdn.discordapp.com/attachments/399670572105334786/953463206070865920/HARMONY_Personal_use.ttf)
 }
 
 * {
@@ -47,7 +47,7 @@
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 1px #f73636, 0 0 2px var(--primary-1),
+    text-shadow: 0 0 1px #146d94, 0 0 2px var(--primary-1),
       0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
       0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
       0 0 7px var(--primary-1);
@@ -79,13 +79,13 @@
 /*  MODE SELECT */
 .custom-checkbox > span[data-v-47e1b746]:before {
     border-radius: 50px;
-    background-color: #f73636;
+    background-color: #146d94;
     border-style: solid;
     border-color: red;
 }
 
 .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
-    background-color: #0000;
+    background-color: #146d94;
 }
 #play > div > div.play-content-up > div > div {
   position: absolute;
@@ -145,7 +145,7 @@ hr::after {
 /****************************************************/
 /* Background */
  #app > div.interface.text-2 > div.background{
-     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953414932551065620/Nytt_projekt7.png) no-repeat center center fixed !important;
+     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953426309768433714/Nytt_projekt10.png) no-repeat center center fixed !important;
      background-size: cover !important;
 }
  #app > div.interface.text-2 > div.background > div.pattern-bg, #app > div.interface.text-2 > div.background > div.bg-radial{
@@ -490,7 +490,7 @@ hr::after {
 
 /*  REPLACE ICONS   */
  #left-icons > div:nth-child(1) > div:nth-child(1) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -499,7 +499,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(2) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -508,7 +508,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(3) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -517,7 +517,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(4) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953455822636191764/Rammstein_logo_2.svg.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953463610078810182/Nytt_projekt61.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -686,7 +686,7 @@ hr::after {
 }
 /* End Game Screen */
  .end-modal {
-     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953415731108773938/Nytt_projekt8.png) !important;
+     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953426309768433714/Nytt_projekt10.png) !important;
 }
  .end-modal .content {
      border-bottom: none !important;
@@ -760,18 +760,19 @@ hr::after {
     animation: glow 2s ease-in-out infinite alternate;
 }
  .profile .avatar-info, .profile .level, .exp-values {
-     display: none;
+     display: visible;
 }
  .user-info {
-     visibility: hidden;
-}
- .progress-lvl {
      visibility: visible;
-     margin-right: -810%;
-     margin-top: -10% !important;
+}
+.progress-line{
+    background: #146d94 !important;
+    box-shadow: none !important;
+    border-right: .25rem solid var(--teal) !important;
+    border-radius: 0px !important;
 }
  .heads .levels {
-     color: red !important;
+     color: blue !important;
 }
  .heads .clan-tag {
      -webkit-animation: glow 2s ease-in-out infinite alternate;
