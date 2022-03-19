@@ -1,6 +1,6 @@
 .nickname {
     text-decoration:;
-    color: #146d94;
+    color: #9b5da3;
 }
 
 .clan-tag {
@@ -9,8 +9,8 @@
 
 .clan-tag:before {
     visibility: visible;
-    color: #ffffff;
-    content: 'CROSS';
+    color: #8887f3;
+    content: 'xipL';
     font-size: 20px;
     font-weight: 200;
     position: fixed;
@@ -19,7 +19,7 @@
 /* Font */
 @font-face {
     font-family: customFont;
-    src: url(https://cdn.discordapp.com/attachments/399670572105334786/953463206070865920/HARMONY_Personal_use.ttf)
+    src: url(https://cdn.discordapp.com/attachments/954568392013135923/954568468936679444/Certification_from_the_Queen.ttf)
 }
 .cmp-persistent-link {
   display: none !important;
@@ -82,13 +82,13 @@
 /*  MODE SELECT */
 .custom-checkbox > span[data-v-47e1b746]:before {
     border-radius: 50px;
-    background-color: #146d94;
+    background-color: #f1a8f1;
     border-style: solid;
     border-color: blue;
 }
 
 .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
-    background-color: #146d94;
+    background-color: #f1a8f1;
 }
 #play > div > div.play-content-up > div > div {
   position: absolute;
@@ -150,7 +150,7 @@ hr::after {
 /****************************************************/
 /* Background */
  #app > div.interface.text-2 > div.background{
-     background: url(https://cdn.discordapp.com/attachments/399670572105334786/953426309768433714/Nytt_projekt10.png) no-repeat center center fixed !important;
+     background: url(https://cdn.discordapp.com/attachments/954568392013135923/954568793135411220/template.png) no-repeat center center fixed !important;
      background-size: cover !important;
 }
  #app > div.interface.text-2 > div.background > div.pattern-bg, #app > div.interface.text-2 > div.background > div.bg-radial{
@@ -384,7 +384,7 @@ hr::after {
   --top: none !important;
   --bottom: none !important;
   border-style: solid; !important;
-  border-color: blue; !important;
+  border-color: pink; !important;
   border-radius: 0px !important;
   border-bottom-style: solid;
   background-image: linear-gradient(to bottom, transparent, #4fdde22b) !important;
@@ -501,7 +501,7 @@ hr::after {
 
 /*  REPLACE ICONS   */
  #left-icons > div:nth-child(1) > div:nth-child(1) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/954568392013135923/954569216026083419/326-3262881_small-flower-pot-png-transparent-png.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -510,7 +510,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(2) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/954568392013135923/954569216026083419/326-3262881_small-flower-pot-png-transparent-png.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -519,7 +519,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(3) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/954568392013135923/954569216026083419/326-3262881_small-flower-pot-png-transparent-png.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -528,7 +528,7 @@ hr::after {
   background-position-y: 2rem !important;
 }
 #left-icons > div:nth-child(1) > div:nth-child(4) {
-  background: url(https://cdn.discordapp.com/attachments/399670572105334786/953474445056557056/Nytt_projekt12.png) !important;
+  background: url(https://cdn.discordapp.com/attachments/954568392013135923/954569216026083419/326-3262881_small-flower-pot-png-transparent-png.png) !important;
   height: 8rem !important;
   margin-top: 0 !important;
   background-repeat: no-repeat !important;
@@ -593,11 +593,11 @@ hr::after {
      position: absolute;
      top: 16px;
      right: 111px;
-     background: #3b4975 !important;
+     background: #f1a8f1 !important;
      border: 4px solid #26335b !important;
 }
  #app > div.interface.text-2 > div.play > button:hover {
-     background: #37477c !important;
+     background: #f1a8f1 !important;
      color: white !important;
 }
  .moneys {
